@@ -1,0 +1,51 @@
+body{
+  background-image: url("survey-image.jpg"); 
+  background-size: cover;
+} 
+
+.form-section{
+  background-color: #0a043c;
+  opacity:0.70;
+  border: none;
+  font-family: 'Merriweather', serif;
+  color: rgb(218, 128, 10);
+  text-align: center;
+  width:500px;
+  padding-top: 30px;
+  margin:30px auto;
+
+}
+#title, #description{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 15px;
+  padding-top:20px;
+  font-weight: bold;
+  text-align: center;
+  color:#ff4646;
+}
+
+#survey-form{
+  padding-bottom: 30px;
+}
+
+#submit{
+  margin:20px 0px;
+  width:200px;
+  background-color: #03506f;
+  border-radius: 10%;
+  text-align:center;
+  color:#ff4646;
+  font-weight:bold;
+}
+
+label{
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  line-height: 15px;
+}
+input, #dropdown {
+display: inline-block;
+text-align: left;
+width: 150px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiTech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 id="title">DigiTech Survey</h1>
+  <p id="description"> <strong>Help us improve are services</strong></p>
+
+<div class="form-section">
+    <form id="survey-form">
+    <label id="name-label">Name</label>
+    <input type="text" id="name" placeholder="Enter your full name" required>
+    <br>
+    <br>
+    <label id="email-label">Email</label>
+    <input type="email" id="email" value="" placeholder="Enter your email" required>
+    <br>
+    <br>
+    <label id="number-label" >Age</label>
+    <input type="number" id="number"  min="18" max="100" placeholder="Age" required>
+    <br>
+    <br>
+    <label for="sections">Choose your favorite section:</label>
+  
+  <select name="sections" id="dropdown">
+    <option value="Projects">Projects</option>
+    <option value="Community">Community</option>
+    <option value="Downloads">Downloads</option>
+    <option value="Mentors">Mentors</option>
+  </select>
+    
+    <p>What part do you think requires improvement:</p>
+    <p>(Check all that apply)</p>
+    <label for="Videos">Videos</label>
+    <input type="checkbox" id="Videos" name="Videos" value="3">
+    <br>
+    <label for="Projects">Projects</label>
+    <input type="checkbox" id="Projects" name="Projects" value="3">
+    <br>
+    <label for="Mentors">Mentors</label>
+    <input type="checkbox" id="Mentors" name="Mentors" value="3">
+    <br>
+    <p>What area will you like to specialize in:</p>
+    <label for="frontend"> Frontend Developer </label>
+    <input type="radio" name="developer" checked>
+    <br>
+    <br>
+    <label for="backend"> Backend Developer </label>
+    <input type="radio" name="developer" checked>
+    <br>
+    <br>
+    <textarea id="comment" name="comment" rows="5" cols="50" placeholder="Please enter additional comments here"></textarea>
+    <br>
+    <input type="submit" id="submit" value="Submit" required>
+    
+  </form>
+  
+</div>
+</body>
+</html>
